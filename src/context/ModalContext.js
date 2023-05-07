@@ -6,7 +6,6 @@ export const ModalContext = createContext()
 const ModalProvider = (props) => {
 
     const [idReceta, setIdReceta] = useState(null)
-    const [informacion, setReceta] = useState({})
 
     useEffect(() => {
         const obtenerReceta = async () => {
